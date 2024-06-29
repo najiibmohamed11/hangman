@@ -9,6 +9,7 @@ export const PlayProvider = ({ children }) => {
     const [play, setPlay] = useState(false);
     const [group, setGroup] = useState('hardware')
     const [answer, setAnswer] = useState(randomWord())
+    console.log(answer)
 
 
 

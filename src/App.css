@@ -12,8 +12,8 @@ body{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-   min-height: inherit;
+  justify-content: space-between;
+   /* min-height: inherit; */
 }
 
 .Hangman-flex div{
@@ -92,6 +92,7 @@ body{
 @media (max-width: 570px) {
   .Hangman-title{
     text-align: center;
+ 
   }
   .Hangman-flex{
     justify-content: center;
@@ -107,5 +108,20 @@ body{
   }
 }
 
+.Hangman-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
+
+.left-side{
+  margin-right: 20%;
+}
+
+.Hangman img {
+  width: 100%; /* makes the image width flexible */
+  max-width: 290px; /* restricts the image to a maximum width */
+  height: auto; /* maintains the aspect ratio */
+}

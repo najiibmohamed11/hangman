@@ -78,7 +78,7 @@ function Home() {
                 <option value="networks">Computer Networks</option>
                     </Select>
                 </form>
-                <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, odio iste nostrum pariatur ab asperiores!</Text>
+                <Text>Discover 'ICT Hangman': Master key ICT concepts through engaging gameplay.!</Text>
                 <Button onClick={handleClick}>Play</Button>
             </Plyanftext>
         </HomeContainer>

@@ -1,13 +1,13 @@
 var HARDWARE = [
   "motherboard", "processor", "graphics card", "RAM", "SSD", "hard drive", "power supply",
   "cooling fan", "network card", "sound card", "optical drive", "GPU", "CPU", "keyboard", 
-  "mouse", "webcam", "monitor", "speaker", "joystick", "VR headset", "router", "modem"
+  "mouse", "webcam", "monitor", "speaker", "joystick", "VR headset", "router",
 ];
 
 var PROGRAMMING_LANGUAGES = [
   "JavaScript", "Python", "Java", "C#", "Ruby", "Swift", "Go", "Kotlin", "PHP", 
-  "TypeScript", "Scala", "Perl", "Haskell", "Elixir", "Rust", "C++", "C", "Dart", 
-  "Objective-C", "Assembly", "Lua", "Clojure"
+  "TypeScript",  "Rust", "C++", "C", "Dart", 
+ 
 ];
 
 var FRAMEWORKS = [
@@ -22,7 +22,7 @@ var OPERATING_SYSTEMS = [
 ];
 
 var NETWORKS = [
-  "LAN", "WAN", "VPN", "TCP/IP", "Internet", "Intranet", "Extranet", "Ethernet", 
+  "LAN", "WAN", "VPN", "TCPIP", "Internet", "Intranet", "Extranet", "Ethernet", 
   "WiFi", "NFC", "Bluetooth", "5G", "4G", "Satellite", "Fiber Optics", "Modem", 
   "Router", "Switch", "Firewall", "Proxy Server"
 ];
